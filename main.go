@@ -41,7 +41,7 @@ import (
     delimiter := "^s[right;#445544; :: ]"
 
     result := ""
-    result = fmt.Sprintf("^s[right;$AABBAA;CPU: ] ^s[right;#E07C00;% 3d%% ]  ^g[right;80;10;%d;100;#445544;#AABBAA;ckycpu] %s ^s[right;#AABBAA;RAM:] ^s[right;#43E000; % 3d%% ] ^p[right;8;10;0;%d;100;#445544;#AABBAA;ckyhdd] %s ^s[right;#AABBAA;HDD:] ^s[right;#008BE0; % 3d%% ] ^p[right;8;10;0;%d;100;#445544;#AABBAA;ckyhdd] %s ^s[right;#AABBAA;%s] %s",
+    result = fmt.Sprintf("^s[right;#AABBAA;CPU: ] ^s[right;#E07C00;% 3d%% ]  ^g[right;80;10;%d;100;#445544;#AABBAA;ckycpu] %s ^s[right;#AABBAA;RAM:] ^s[right;#43E000; % 3d%% ] ^p[right;8;10;0;%d;100;#445544;#AABBAA;ckyhdd] %s ^s[right;#AABBAA;HDD:] ^s[right;#008BE0; % 3d%% ] ^p[right;8;10;0;%d;100;#445544;#AABBAA;ckyhdd] %s ^s[right;#AABBAA;%s] %s",
         uint32(cpuChange),
         uint32(cpuChange),
         delimiter,
